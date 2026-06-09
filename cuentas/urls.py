@@ -1,0 +1,1 @@
+from django.urls import path; from .views import MiLoginView, MiLogoutView, PaginaPrivadaView; urlpatterns = [path('login/', MiLoginView.as_view(), name='login'), path('logout/', MiLogoutView.as_view(), name='logout'), path('privado/', PaginaPrivadaView.as_view(), name='privado'),]
